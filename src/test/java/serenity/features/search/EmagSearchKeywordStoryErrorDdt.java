@@ -23,7 +23,7 @@ public class EmagSearchKeywordStoryErrorDdt {
     public Pages pages;
 
     public String name;
-    public String titleSearch;
+    public String title;
 
     @Qualifier
     public String getQualifier() {
@@ -38,7 +38,7 @@ public class EmagSearchKeywordStoryErrorDdt {
     public void searchByKeywordError() {
         steps.is_the_home_page();
         steps.looks_for(getName());
-        steps.should_see_title_error(getTitleSearch());
+        steps.should_see_title_error(getTitle());
     }
 
     public String getName() {
@@ -49,12 +49,12 @@ public class EmagSearchKeywordStoryErrorDdt {
         this.name = name;
     }
 
-    public String getTitleSearch() {
-        return titleSearch;
+    public String getTitle() {
+        return title;
     }
 
-    public void setTitleSearch(String titleSearch ) {
-        this.titleSearch = titleSearch;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
 

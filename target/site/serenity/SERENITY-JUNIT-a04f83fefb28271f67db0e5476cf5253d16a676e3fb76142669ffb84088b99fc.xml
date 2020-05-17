@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="serenity.features.search.SearchByKeywordStory" skipped="0" tests="1" time="1.02" timestamp="2020-05-17 06:12:02"><testcase classname="serenity.features.search.SearchByKeywordStory" name="Searching by keyword banana should display the corresponding article"><error message="Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error><system-err>Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver&#13;
+serenity.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)&#13;
+serenity.features.search.SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article(SearchByKeywordStory.java:35)&#13;
+</system-err></testcase></testsuite>

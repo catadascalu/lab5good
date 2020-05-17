@@ -23,7 +23,10 @@ public class EmagSteps {
 
     @Step
     public void should_see_title(String title) {
-        assertTrue(emagPage.getTitleSearch().contains(title));
+        String found = emagPage.getTitleSearch();
+        System.out.println(title);
+        System.out.println(found);
+        assertTrue(found.contains(title));
         //assertThat(emagPage.getTitleSearch(), hasItem(containsString(title)));
     }
 

@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 @DefaultUrl("https://www.emag.ro/apple-watch-3-gps-carcasa-silver-aluminium-42mm-white-sport-band-mtf22mp-a/pd/D1M1XVBBM/")
 public class EmagPageItem extends PageObject {
 
-    @FindBy(className = "js-reviews-search")
+    @FindBy(className = "search-input")
     private WebElementFacade searchTerms;
 
     @FindBy(className = "search-btn-submit")
